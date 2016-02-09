@@ -1,0 +1,236 @@
+/* line 1, ../sass/sample2.scss */
+body {
+  background-size: cover;
+  background: url(../img/bg-body.jpg);
+}
+
+/* line 5, ../sass/sample2.scss */
+.header {
+  margin-top: 30;
+}
+/* line 7, ../sass/sample2.scss */
+.header h1 {
+  color: white;
+  font-family: 'Lobster',sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 50;
+  text-align: center;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+}
+/* line 17, ../sass/sample2.scss */
+.header h3 {
+  color: #B1CCC5;
+  font-family: 'Terminal Dosis',sans-serif;
+  font-size: 14px;
+  padding-top: 0px;
+  margin-top: 0px;
+  text-align: center;
+}
+
+/* line 26, ../sass/sample2.scss */
+.main {
+  background: white;
+  clear: both;
+  overflow: hidden;
+  text-align: center;
+  padding: 5px;
+  width: 990px;
+  margin-left: 10%;
+  position: absolute;
+}
+
+/* line 36, ../sass/sample2.scss */
+#leftarrow {
+  cursor: pointer;
+  cursor: hand;
+  float: left;
+  margin-left: 7.5%;
+  margin-top: 14%;
+  position: absolute;
+  z-index: -2;
+}
+
+/* line 45, ../sass/sample2.scss */
+#rightarrow {
+  cursor: pointer;
+  cursor: hand;
+  float: right;
+  margin-left: 84%;
+  margin-top: 14%;
+  position: absolute;
+  z-index: -2;
+}
+
+/* line 54, ../sass/sample2.scss */
+.wrapper {
+  width: auto;
+  height: auto;
+  float: left;
+  background: white;
+}
+
+/* line 60, ../sass/sample2.scss */
+.slider {
+  position: relative;
+  left: -210px;
+  list-style-type: none;
+  margin-left: -120px;
+  padding: 0px;
+  width: 9100px;
+  padding-bottom: 10px;
+}
+/* line 68, ../sass/sample2.scss */
+.slider .secondary {
+  float: left;
+  width: 650px;
+  background-color: #B1CCC5;
+  height: 400px;
+  display: block;
+  z-index: 2;
+  margin-top: 5px;
+  margin-right: 5px;
+  margin-left: 5px;
+  position: relative;
+}
+/* line 79, ../sass/sample2.scss */
+.slider .secondary button {
+  float: right;
+}
+/* line 83, ../sass/sample2.scss */
+.slider .primary {
+  float: left;
+  padding: 0px;
+  margin: 5px;
+  position: relative;
+  clear: none;
+  height: 400px;
+  width: 320px;
+  text-align: center;
+  overflow: hidden;
+}
+/* line 93, ../sass/sample2.scss */
+.slider .primary .black {
+  padding-top: 5px;
+  font-size: 17px;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  color: white;
+  background: rgba(0, 0, 0, 0.6);
+  margin-top: 70%;
+  height: 44.4%;
+}
+/* line 101, ../sass/sample2.scss */
+.slider .primary .black:hover {
+  margin-top: 65%;
+  transition: .5s;
+  height: 48.4%;
+}
+/* line 105, ../sass/sample2.scss */
+.slider .primary .black:hover .open {
+  margin-left: 73%;
+  transition: .50s;
+}
+/* line 109, ../sass/sample2.scss */
+.slider .primary .black:hover .text {
+  top: 68%;
+  transition: .50s;
+}
+/* line 115, ../sass/sample2.scss */
+.slider .primary span {
+  font-size: 13px;
+  color: white;
+  position: relative;
+  margin-bottom: 100%;
+  font-family: 'Terminal Dosis', sans-serif;
+}
+/* line 122, ../sass/sample2.scss */
+.slider .primary .open {
+  display: block;
+  z-index: 2;
+  font-size: 15px;
+  top: 90%;
+  margin-left: 75%;
+  background: #B1CCC5;
+  width: 100px;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  position: absolute;
+  padding-top: 5px;
+  text-decoration: none;
+  color: black;
+}
+/* line 135, ../sass/sample2.scss */
+.slider .primary .open img {
+  float: right;
+  margin-right: 25px;
+  width: 20px;
+  margin-top: 2.5px;
+  height: 10px;
+}
+/* line 143, ../sass/sample2.scss */
+.slider .primary .text {
+  display: block;
+  z-index: 2;
+  font-size: 15px;
+  top: 73%;
+  height: 55px;
+  margin-left: 5%;
+  background: #B1CCC5;
+  width: 10px;
+  float: left;
+  position: absolute;
+}
+
+/* line 157, ../sass/sample2.scss */
+#img1 {
+  background: url(../img/item5.jpg);
+}
+
+/* line 160, ../sass/sample2.scss */
+#img2 {
+  background: url(../img/item1.jpg);
+}
+
+/* line 163, ../sass/sample2.scss */
+#img3 {
+  background: url(../img/item2.jpg);
+}
+
+/* line 166, ../sass/sample2.scss */
+#img4 {
+  background: url(../img/item3.jpg);
+}
+
+/* line 169, ../sass/sample2.scss */
+#img5 {
+  background: url(../img/item4.jpg);
+}
+
+/* line 172, ../sass/sample2.scss */
+#footer1 {
+  float: left;
+  margin-left: 140px;
+}
+
+/* line 176, ../sass/sample2.scss */
+#footer2 {
+  float: right;
+  margin-right: 140px;
+}
+
+/* line 180, ../sass/sample2.scss */
+.footer {
+  width: 480px;
+  border-radius: 10px;
+  background: rgba(0, 0, 0, 0.5);
+  text-align: center;
+  margin-top: 36%;
+  height: 70px;
+}
+/* line 187, ../sass/sample2.scss */
+.footer h2 {
+  color: white;
+  margin-top: 30px;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  font-size: 20px;
+}

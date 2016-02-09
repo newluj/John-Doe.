@@ -1,0 +1,222 @@
+/* line 1, ../sass/style.scss */
+body {
+  margin: 0px;
+}
+
+/* line 4, ../sass/style.scss */
+.header {
+  height: 100px;
+  background-image: url("resources/circles.png");
+  background-repeat: no-repeat;
+  background-position: left top;
+  margin-right: 100px;
+  margin-left: 180px;
+  margin-top: 30px;
+}
+/* line 12, ../sass/style.scss */
+.header a {
+  padding: 0px 60px 0px 40px;
+  color: #66CCFF;
+  font-size: small;
+  width: 100px;
+  text-decoration: none;
+  display: inline;
+}
+/* line 20, ../sass/style.scss */
+.header h1 {
+  color: #606060;
+  font-family: "Courier New" Lucida Console;
+  margin-left: 50;
+  padding-top: 20;
+  padding-left: 10;
+}
+
+/* line 28, ../sass/style.scss */
+.content {
+  background-color: #E0E0E0;
+  height: 400px;
+}
+/* line 31, ../sass/style.scss */
+.content p {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+/* line 36, ../sass/style.scss */
+.main {
+  width: 900px;
+  height: 360px;
+  margin: auto;
+}
+
+/* line 41, ../sass/style.scss */
+.side-button {
+  border: 2px solid white;
+  height: 50px;
+  width: 200px;
+  color: white;
+  float: right;
+}
+
+/* line 48, ../sass/style.scss */
+#planning {
+  background: linear-gradient(#FFFF99, #CCFF66, #FF9900);
+}
+
+/* line 51, ../sass/style.scss */
+img {
+  float: right;
+}
+
+/* line 54, ../sass/style.scss */
+#strategy {
+  background: linear-gradient(#66FF99, #33FF66, #339900);
+}
+
+/* line 58, ../sass/style.scss */
+#result {
+  background: linear-gradient(#66FFCC, #00FFCC, #00CCCC);
+}
+
+/* line 61, ../sass/style.scss */
+#cont {
+  background-color: #00CCCC;
+  border: 2px solid white;
+  height: 160px;
+  width: 200px;
+  float: right;
+  color: white;
+  font-size: 9pt;
+}
+
+/* line 70, ../sass/style.scss */
+.footer {
+  background-color: black;
+  height: 100px;
+  color: white;
+  padding: 20px 0px 20px 0px;
+  width: 100%;
+  font-size: 9pt;
+}
+/* line 78, ../sass/style.scss */
+.footer p {
+  text-align: left-top;
+  padding: 0px 10px 0px 10px;
+  margin-left: 30px;
+}
+
+/* line 84, ../sass/style.scss */
+.main2 {
+  width: 1000px;
+  margin-left: 180;
+}
+
+/* line 88, ../sass/style.scss */
+.img1 {
+  float: left;
+  height: 20px;
+  width: 25px;
+  padding: 20px 0px 0px 0px;
+}
+
+/* line 95, ../sass/style.scss */
+.footer1 {
+  float: left;
+  text-align: left;
+  width: 200px;
+  padding-right: 30px;
+  padding-left: 18px;
+}
+
+/* line 102, ../sass/style.scss */
+.img2 {
+  float: left;
+  position: static;
+  padding: 0px 5px 0px 0px;
+}
+
+/* line 107, ../sass/style.scss */
+a.control_prev, a.control_next {
+  position: absolute;
+  top: 40%;
+  z-index: 999;
+  display: block;
+  padding: 4% 3%;
+  width: auto;
+  height: auto;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 18px;
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+/* line 122, ../sass/style.scss */
+a.control_prev:hover, a.control_next:hover {
+  opacity: 1;
+  -webkit-transition: all 0.2s ease;
+}
+
+/* line 127, ../sass/style.scss */
+a.control_prev {
+  border-radius: 0 2px 2px 0;
+}
+
+/* line 131, ../sass/style.scss */
+a.control_next {
+  right: 0;
+  border-radius: 2px 0 0 2px;
+}
+
+/* line 135, ../sass/style.scss */
+#slider {
+  position: relative;
+  overflow: hidden;
+  height: 327px;
+  width: 620px;
+  float: left;
+}
+/* line 142, ../sass/style.scss */
+#slider ul {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  height: 200px;
+  list-style: none;
+  float: left;
+}
+/* line 150, ../sass/style.scss */
+#slider ul li {
+  position: relative;
+  display: block;
+  float: left;
+  margin: 0;
+  padding: 0;
+  background: #ccc;
+  text-align: center;
+  line-height: 300px;
+  height: 327px;
+}
+
+/* line 162, ../sass/style.scss */
+.button {
+  position: absolute;
+  display: block;
+  z-index: 999;
+  top: 300;
+  left: 610;
+}
+
+/* line 169, ../sass/style.scss */
+#stop {
+  display: none;
+}
+
+/* line 172, ../sass/style.scss */
+h3 {
+  position: absolute;
+  width: 100%;
+  top: 142px;
+  left: 300;
+  font-size: 15px;
+}

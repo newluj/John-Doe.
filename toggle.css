@@ -1,0 +1,29 @@
+.slidingDiv {
+    height:440px;
+    background-color: blueviolet;
+    width: 600px;
+    position: absolute;
+    margin-left: 340px;
+    float:left;
+    display: inline-block;
+}
+.show_hide {
+    display:none;
+    position:relative;
+    clear:none;
+    overflow: hidden;
+}
+.main{
+	    margin: auto;
+	    background-color: white;
+		width: 1020;
+    	position: relative;
+    	overflow: hidden;
+    	height: 469;
+}
+img{
+	position:relative;
+}
+button{
+	float: right;
+}

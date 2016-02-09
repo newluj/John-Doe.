@@ -1,0 +1,187 @@
+body {
+  background-size: cover;
+  background: url(../img/bg-body.jpg);
+}
+.header{
+  margin-top: 30;
+      h1{
+        color:white ;
+        font-family: 'Lobster',sans-serif;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 50;
+        text-align: center;
+        padding-bottom: 0px;
+        margin-bottom: 0px;
+      }
+      h3{
+        color:#B1CCC5 ;
+        font-family: 'Terminal Dosis',sans-serif;
+        font-size: 14px;
+        padding-top: 0px;
+        margin-top: 0px;
+        text-align: center;
+      }
+}
+.main {
+  background: white;
+  clear: both;
+  overflow: hidden;
+  text-align: center;
+  padding: 5px;
+  width: 990px;
+  margin-left: 10%;
+  position: absolute;
+}
+#leftarrow {
+  cursor: pointer;
+  cursor: hand;
+  float: left;
+  margin-left: 7.5%;
+  margin-top: 14%;
+  position: absolute;
+  z-index: -2;
+}
+#rightarrow {
+  cursor: pointer;
+  cursor: hand;
+  float: right;
+  margin-left: 84%;
+  margin-top: 14%;
+  position: absolute;
+  z-index: -2;
+}
+.slider {
+  position: relative;
+  left: -210px;
+  list-style-type: none;
+  margin-left: -120px;
+  padding: 0px;
+  width: 9000px;
+  padding-bottom: 10px;
+    .secondary {
+      float: left;
+      width: 650px;
+      background-color: #B1CCC5;
+      height: 400px;
+      display: block;
+      z-index: 2;
+      margin-top: 5px;
+      margin-right: 5px;
+      margin-left: 5px;
+      position: relative;
+        button {
+          float: right;
+        }
+    }
+    .primary {
+      float: left;
+      padding: 0px;
+      margin: 5px;
+      position: relative;
+      clear: none;
+      height: 400px;
+      width: 320px;
+      text-align: center;
+      overflow: hidden;
+       .black {
+        padding-top: 5px;
+        font-size: 17px;
+        font-family: 'Yanone Kaffeesatz', sans-serif;
+        color: white;
+        background: rgba(0, 0, 0, 0.6);
+        margin-top: 70%;
+        height: 44.4%;
+          &:hover {
+            margin-top: 65%;
+            transition: .5s;
+            height: 48.4%;
+              .open {
+                margin-left: 73%;
+                transition: .50s;
+              }
+              .text {
+                top: 68%;
+                transition: .50s;
+              }
+          }
+        }
+        span {
+          font-size: 13px;
+          color: white;
+          position: relative;
+          margin-bottom: 100%;
+          font-family: 'Terminal Dosis', sans-serif;
+        }
+        .open {
+          display: block;
+          z-index: 2;
+          font-size: 15px;
+          top: 90%;
+          margin-left: 75%;
+          background: #B1CCC5;
+          width: 100px;
+          font-family: 'Yanone Kaffeesatz', sans-serif;
+          position: absolute;
+          padding-top: 5px;
+          text-decoration: none;
+          color: black;
+            img {
+              float: right;
+              margin-right: 25px;
+              width: 20px;
+              margin-top: 2.5px;
+              height: 10px;
+            }
+        }
+        .text {
+          display: block;
+          z-index: 2;
+          font-size: 15px;
+          top: 73%;
+          height: 55px;
+          margin-left: 5%;
+          background: #B1CCC5;
+          width: 10px;
+          float: left;
+          position: absolute;
+        }
+    }
+}
+#img1 {
+  background: url(../img/item5.jpg);
+}
+#img2 {
+  background: url(../img/item1.jpg);
+}
+#img3 {
+  background: url(../img/item2.jpg);
+}
+#img4 {
+  background: url(../img/item3.jpg);
+}
+#img5 {
+  background: url(../img/item4.jpg);
+}
+#footer1 {
+  float: left;
+  margin-left: 140px;
+}
+#footer2 {
+  float: right;
+  margin-right: 140px;
+}
+.footer {
+  width: 480px;
+  border-radius: 10px;
+  background: rgba(0, 0, 0, 0.5);
+  text-align: center;
+  margin-top: 36%;
+  height: 70px;
+    h2 {
+      color: white;
+      margin-top: 30px;
+      font-family: 'Yanone Kaffeesatz', sans-serif;
+      font-size: 20px;
+    }
+}

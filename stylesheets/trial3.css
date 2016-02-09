@@ -1,0 +1,312 @@
+/* line 4, ../sass/trial.scss */
+/* line 2, ../sass/trial3.scss */
+body {
+  background-size: cover;
+  background: url(../img/bg-body.jpg);
+}
+
+/* line 9, ../sass/trial.scss */
+/* line 8, ../sass/trial3.scss */
+h1 {
+  font-size: 40px;
+  color: white;
+  font-family: 'Lobster', sans-serif;
+  text-align: center;
+}
+
+/* line 15, ../sass/trial.scss */
+/* line 15, ../sass/trial3.scss */
+h1 span {
+  font-size: 13px;
+  color: #B1CCC5;
+  font-family: 'Terminal Dosis', sans-serif;
+}
+
+/* line 22, ../sass/trial.scss */
+/* line 22, ../sass/trial3.scss */
+.primedary:after {
+  display: block;
+  width: auto;
+  height: auto;
+}
+
+/* line 30, ../sass/trial.scss */
+/* line 29, ../sass/trial3.scss */
+.active {
+  height: 100%;
+  margin-left: 330px;
+  width: 50%;
+  z-index: -2;
+  margin-right: -320px;
+  display: block;
+}
+
+/* line 39, ../sass/trial.scss */
+/* line 39, ../sass/trial3.scss */
+.hide {
+  display: none;
+}
+
+/* line 42, ../sass/trial.scss */
+/* line 44, ../sass/trial3.scss */
+.accordion {
+  position: relative;
+  left: -210px;
+  list-style-type: none;
+  margin-left: -120px;
+  height: 410px;
+  padding: 0px;
+  width: 9000px;
+  padding-bottom: 10px;
+}
+
+/* line 54, ../sass/trial.scss */
+/* line 55, ../sass/trial3.scss */
+.accordion .secondary {
+  background-color: black;
+  height: 400px;
+  width: 650px;
+  margin: 5px;
+  float: left;
+  z-index: -2;
+}
+
+/* line 62, ../sass/trial.scss */
+/* line 64, ../sass/trial3.scss */
+.accordion .secondary button {
+  float: right;
+}
+
+/* line 67, ../sass/trial.scss */
+/* line 68, ../sass/trial3.scss */
+.accordion .primary {
+  float: left;
+  padding: 0px;
+  margin: 5px;
+  position: relative;
+  clear: none;
+  height: 400px;
+  width: 320px;
+  display: block;
+  text-align: center;
+}
+
+/* line 78, ../sass/trial.scss */
+/* line 80, ../sass/trial3.scss */
+.accordion .primary .header {
+  font-size: 20px;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  color: white;
+  padding-top: 1px;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  margin-top: 70%;
+  height: 44.4%;
+}
+
+/* line 88, ../sass/trial.scss */
+/* line 91, ../sass/trial3.scss */
+.accordion .primary .header:hover {
+  margin-top: 65%;
+  transition: .5s;
+  height: 48.4%;
+}
+
+/* line 93, ../sass/trial.scss */
+/* line 97, ../sass/trial3.scss */
+.accordion .primary .header:hover .open {
+  margin-left: 70%;
+  width: 96px;
+  transition: .50s;
+}
+
+/* line 99, ../sass/trial.scss */
+/* line 103, ../sass/trial3.scss */
+.accordion .primary .header:hover .line {
+  top: 73%;
+  transition: .50s;
+}
+
+/* line 106, ../sass/trial.scss */
+/* line 108, ../sass/trial3.scss */
+.accordion .primary span {
+  font-size: 13px;
+  color: white;
+  position: relative;
+  margin-bottom: 100%;
+  font-family: 'Terminal Dosis', sans-serif;
+}
+
+/* line 115, ../sass/trial.scss */
+/* line 116, ../sass/trial3.scss */
+.accordion .primary .open {
+  display: block;
+  z-index: 2;
+  font-size: 15px;
+  top: 90%;
+  margin-left: 75%;
+  background: #B1CCC5;
+  width: 80px;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  position: absolute;
+  padding-top: 5px;
+  text-decoration: none;
+  color: black;
+}
+
+/* line 130, ../sass/trial.scss */
+/* line 131, ../sass/trial3.scss */
+.accordion .primary .open img {
+  float: right;
+  margin-right: 25px;
+  width: 20px;
+  margin-top: 2.5px;
+  height: 10px;
+}
+
+/* line 139, ../sass/trial.scss */
+/* line 139, ../sass/trial3.scss */
+.accordion .primary .line {
+  display: block;
+  z-index: 2;
+  font-size: 15px;
+  top: 78%;
+  height: 55px;
+  margin-left: 5%;
+  background: #B1CCC5;
+  width: 10px;
+  float: left;
+  position: absolute;
+}
+
+/* line 155, ../sass/trial.scss */
+/* line 153, ../sass/trial3.scss */
+.bodyCarousel {
+  background: white;
+  overflow: hidden;
+  text-align: center;
+  padding: 5px;
+  width: 990px;
+  margin-left: 10%;
+  height: 410px;
+  display: inline-block;
+  position: absolute;
+}
+
+/* line 168, ../sass/trial.scss */
+/* line 166, ../sass/trial3.scss */
+#divimg_01 {
+  background: url(../img/item5.jpg);
+}
+
+/* line 173, ../sass/trial.scss */
+/* line 171, ../sass/trial3.scss */
+#divimg_02 {
+  background: url(../img/item1.jpg);
+}
+
+/* line 178, ../sass/trial.scss */
+/* line 176, ../sass/trial3.scss */
+#divimg_03 {
+  background: url(../img/item2.jpg);
+}
+
+/* line 183, ../sass/trial.scss */
+/* line 181, ../sass/trial3.scss */
+#divimg_04 {
+  background: url(../img/item3.jpg);
+}
+
+/* line 188, ../sass/trial.scss */
+/* line 186, ../sass/trial3.scss */
+#divimg_05 {
+  background: url(../img/item4.jpg);
+}
+
+/* line 193, ../sass/trial.scss */
+/* line 191, ../sass/trial3.scss */
+#secondary_01 {
+  background: red;
+}
+
+/* line 198, ../sass/trial.scss */
+/* line 196, ../sass/trial3.scss */
+#secondary_02 {
+  background: blue;
+}
+
+/* line 203, ../sass/trial.scss */
+/* line 201, ../sass/trial3.scss */
+#secondary_03 {
+  background: green;
+}
+
+/* line 208, ../sass/trial.scss */
+/* line 206, ../sass/trial3.scss */
+#secondary_04 {
+  background: pink;
+}
+
+/* line 213, ../sass/trial.scss */
+/* line 211, ../sass/trial3.scss */
+#secondary_05 {
+  background: orange;
+}
+
+/* line 219, ../sass/trial.scss */
+/* line 216, ../sass/trial3.scss */
+#leftArrow {
+  cursor: pointer;
+  cursor: hand;
+  float: left;
+  margin-left: 7.5%;
+  margin-top: 14%;
+  position: absolute;
+  z-index: -2;
+}
+
+/* line 229, ../sass/trial.scss */
+/* line 227, ../sass/trial3.scss */
+#rightArrow {
+  cursor: pointer;
+  cursor: hand;
+  float: right;
+  margin-left: 85%;
+  margin-top: 14%;
+  position: absolute;
+  z-index: -2;
+}
+
+/* line 239, ../sass/trial.scss */
+/* line 238, ../sass/trial3.scss */
+#section1 {
+  float: left;
+  margin-left: 140px;
+}
+
+/* line 245, ../sass/trial.scss */
+/* line 244, ../sass/trial3.scss */
+#section2 {
+  float: right;
+  margin-right: 140px;
+}
+
+/* line 251, ../sass/trial.scss */
+/* line 250, ../sass/trial3.scss */
+.sections {
+  width: 480px;
+  border-radius: 10px;
+  background: rgba(0, 0, 0, 0.5);
+  text-align: center;
+  margin-top: 36%;
+  height: 90px;
+}
+
+/* line 259, ../sass/trial.scss */
+/* line 259, ../sass/trial3.scss */
+.sections h2 {
+  color: white;
+  margin-top: 30px;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  font-size: 20px;
+}
