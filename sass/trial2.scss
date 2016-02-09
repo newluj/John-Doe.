@@ -1,6 +1,10 @@
 body {
-  background-size: cover;
-  background: url(../img/bg-body.jpg);
+    background-size: cover;
+    background: url(../img/bg-body.jpg);
+    position: relative;
+    margin: 0 auto;
+    height: 700px;
+    width: 990px;
 }
 .header{
   margin-top: 30;
@@ -24,43 +28,42 @@ body {
       }
 }
 .main {
-  background: white;
-  clear: both;
-  overflow: hidden;
-  text-align: center;
-  padding: 5px;
-  width: 990px;
-  margin-left: 10%;
-  position: absolute;
+    background: white;
+    clear: both;
+    overflow: hidden;
+    text-align: center;
+    padding: 5px;
+    width: 990px;
+    margin: 0 auto
 }
 #leftarrow {
-  cursor: pointer;
-  cursor: hand;
-  float: left;
-  left: 7.9%;
-  top: 40%;
-  position: absolute;
-  z-index: -2;
+    cursor: pointer;
+    cursor: hand;
+    float: left;
+    left: -3.5%;
+    top: 40%;
+    position: absolute;
+    z-index: -2;
 }
 #rightarrow {
-  cursor: pointer;
-  cursor: hand;
-  float: right;
-  left: 84.5%;
-  top: 40%;
-  position: absolute;
-  z-index: -2;
+    cursor: pointer;
+    cursor: hand;
+    float: right;
+    right: -4.5%;
+    bottom: 50%;
+    position: absolute;
+    z-index: -2;
 }
 .wrapper {
   width: auto;
   height: auto;
   float: left;
   background: white;
+  position: relative;
 }
 .slider {
   position: relative;
   left: 0px;
-  
   list-style-type: none;
   padding: 0px;
   width: 9100px;
@@ -171,19 +174,20 @@ body {
 }
 #footer1 {
   float: left;
-  margin-left: 140px;
+  left: 0;
 }
 #footer2 {
   float: right;
-  margin-right: 140px;
+  right: 0;
 }
 .footer {
   width: 480px;
   border-radius: 10px;
   background: rgba(0, 0, 0, 0.5);
   text-align: center;
-  margin-top: 36%;
+  top: 75%;
   height: 70px;
+  position: absolute;
     h2 {
       color: white;
       margin-top: 30px;
